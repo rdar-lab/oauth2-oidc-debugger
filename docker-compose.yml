@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   oauth2-oidc-debugger:
-    image: 'oauth2-oidc-debugger'
+    image: 171170093330.dkr.ecr.eu-central-1.amazonaws.com/oauth2-oidc-debugger:1.0
     build:
       context: ./client
       dockerfile: Dockerfile
